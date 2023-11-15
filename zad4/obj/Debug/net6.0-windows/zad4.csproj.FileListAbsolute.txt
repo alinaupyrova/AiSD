@@ -1,0 +1,17 @@
+D:\169407\zad4\bin\Debug\net6.0-windows\zad4.exe
+D:\169407\zad4\bin\Debug\net6.0-windows\zad4.deps.json
+D:\169407\zad4\bin\Debug\net6.0-windows\zad4.runtimeconfig.json
+D:\169407\zad4\bin\Debug\net6.0-windows\zad4.dll
+D:\169407\zad4\bin\Debug\net6.0-windows\zad4.pdb
+D:\169407\zad4\obj\Debug\net6.0-windows\zad4.csproj.AssemblyReference.cache
+D:\169407\zad4\obj\Debug\net6.0-windows\zad4.Form1.resources
+D:\169407\zad4\obj\Debug\net6.0-windows\zad4.csproj.GenerateResource.cache
+D:\169407\zad4\obj\Debug\net6.0-windows\zad4.GeneratedMSBuildEditorConfig.editorconfig
+D:\169407\zad4\obj\Debug\net6.0-windows\zad4.AssemblyInfoInputs.cache
+D:\169407\zad4\obj\Debug\net6.0-windows\zad4.AssemblyInfo.cs
+D:\169407\zad4\obj\Debug\net6.0-windows\zad4.csproj.CoreCompileInputs.cache
+D:\169407\zad4\obj\Debug\net6.0-windows\zad4.dll
+D:\169407\zad4\obj\Debug\net6.0-windows\refint\zad4.dll
+D:\169407\zad4\obj\Debug\net6.0-windows\zad4.pdb
+D:\169407\zad4\obj\Debug\net6.0-windows\zad4.genruntimeconfig.cache
+D:\169407\zad4\obj\Debug\net6.0-windows\ref\zad4.dll
