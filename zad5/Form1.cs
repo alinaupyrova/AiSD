@@ -23,9 +23,22 @@ namespace zad5
             w2.dzieci.Add(w6);
             A(w1);
             MessageBox.Show(napis);
+
+            var w1 = new wezel2(3);
+            var w2.2 = new wezel2(1);
+            var w2.3 = new wezel2(5);
+            var w2.4 = new wezel2(6);
+            var w2.5 = new wezel2(4);
+            var w2.6 = new wezel2(2);
+            var w2.7 = new wezel2(7);
+
+            A(w2);
+
+
         }
         string napis = "";
-        
+        string napis2 = "";
+
         void A(wezel w)
         {
             A(w);
@@ -37,6 +50,22 @@ namespace zad5
                 }
             }
         }
+        List<wezel2> odwiedzane = new(); 
+        void A2(wezel2 w)
+        {
+            odwiedzane.Add(w);
+            napis += " " + w.wartosc.ToString();
+            for (int i = 0; i < w.sasiedzi.Count; i++)
+            {
+               
+                if (!odwiedzane.Contains(w.sasiedzi[i]))
+                A2(w.sasiedzi[i]);
+            }
+            // foreach(var sasiad in w.sasiedzi)
+            // {
+            // A(sasiedzi)
+            // } 
+        }
     }
     class wezel
     {
@@ -45,6 +74,34 @@ namespace zad5
         public wezel(int liczba)
         {
             this.wartosc = liczba;
+        }
+    }
+    class wezel2
+    {
+        public int wartosc;
+        public List<wezel2> sasiedzi = new List<wezel2>();
+        public wezel2(int liczba)
+        {
+            this.wartosc = liczba;
+        }
+        public bool Add(wezel2 s)
+        {
+            if(this == s)
+            {
+                return false;
+            }
+            bool wynik = false;
+            if(!this.sasiedzi.Contains(s))
+            {
+                this.sasiedzi.Add(s);
+                wynik = true;
+            }
+            if(!s.sasiedzi.Contains(this))
+            {
+                s.sasiedzi.Add(this);
+                wynik = true;
+            }
+            return wynik;
         }
     }
 }
